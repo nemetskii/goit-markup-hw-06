@@ -401,8 +401,7 @@
             </ul>
           </address>
         </div>
-
-        <div class="footer-container">
+        <div class="footer-container" style="margin-right: auto">
           <p class="join">Присоединяйтесь</p>
           <ul class="footer-social-list list">
             <li class="footer-social-list-item">
@@ -449,6 +448,7 @@
         </div>
       </div>
     </footer>
+    <!--/Контактная информация-->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
@@ -499,7 +499,7 @@
               </svg>
             </span>
           </label>
-          <label class="modal-form-field">
+          <label class="modal-form-field modal-form-text-area">
             <span class="modal-form-input-desc">Комментарий</span>
             <textarea
               name="user_comment"
@@ -519,7 +519,9 @@
                 <use href="./images/sprite/icons.svg#check"></use>
               </svg>
             </span>
-            Соглашаюсь с рассылкой и принимаю&nbsp;<a href="#">Условия договора</a>
+            Соглашаюсь с рассылкой и принимаю&nbsp;<a href="#" class="conditions"
+              >Условия договора</a
+            >
           </label>
           <button type="submit" class="modal-form-submit">Отправить</button>
         </form>
